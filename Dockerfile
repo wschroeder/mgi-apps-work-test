@@ -22,5 +22,6 @@ RUN cd /challenges/challenge4 && \
     ant clone-htsjdk && \
     ant
 
+RUN chmod -R a+rw /challenges
 WORKDIR /challenges
 
