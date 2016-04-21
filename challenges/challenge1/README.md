@@ -66,9 +66,9 @@ var array_of_foos = [new Foo(x1, y1), new Foo(x2, y2), ...];
 // array_of_foos[1].getX() returns x2
 var transformed = transformData(array_of_foos);
 
-// transformed is [ {x1: {value: y1}},
-//                  {x2: {value: y2}},
-//                  ... ]
+// transformed is {  x1: {value: y1},
+//                   x2: {value: y2},
+//                  ... }
 ```
 
 

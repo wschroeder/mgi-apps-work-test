@@ -15,10 +15,10 @@ var array_of_foos = [
 ];
 
 var transformed = transformData(array_of_foos);
-var expected_transform = [{}, {}, {}];
-expected_transform[0][values[0]] = { value: values[3] };
-expected_transform[1][values[1]] = { value: values[4] };
-expected_transform[2][values[2]] = { value: values[5] };
+var expected_transform = {};
+expected_transform[values[0]] = { value: values[3] };
+expected_transform[values[1]] = { value: values[4] };
+expected_transform[values[2]] = { value: values[5] };
 
 it("should be transformed", function() {
     expect(transformed).to.deep.equal(expected_transform);
