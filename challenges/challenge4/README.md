@@ -19,7 +19,7 @@ Runtime.totalMemory()=32440320
 ```
 
 
-I expect:
+Please modify the appropriate source code to fix this inconsistency.  I expect:
 
 ```
 root@uuid:/challenges/challenge4/picard# java -jar dist/picard.jar ViewSam HEADER_ONLY=true I=http://www.ebi.ac.uk/arrayexpress/files/E-MTAB-3279/E-MTAB-3279.Col0_C1.snp.concordant_uniq.sorted.bam > /dev/null
