@@ -1,4 +1,4 @@
-FROM java:openjdk-9-jdk
+FROM wschroeder/openjdk-9-jdk
 MAINTAINER William Schroeder <wschroed@wustl.edu>
 
 RUN apt-get update
